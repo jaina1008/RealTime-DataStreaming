@@ -156,8 +156,3 @@ if __name__ == "__main__":
                                .start())
 
             streaming_query.awaitTermination()
-
-# docker compose up -d
-# docker logs data_engineering-db-1
-# docker exec -it cassandra cqlsh -u cassandra -p cassandra localhost 9042
-# describe spark_streams.created_users
